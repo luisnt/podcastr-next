@@ -2,6 +2,7 @@
 
 ## Dependências de Desenvolvimento
 > yarn add typescript @types/react @types/node -D
+
 > yarn add json-server -D
 
 
@@ -10,9 +11,13 @@
 
 ## Dependências do Projeto
 > yarn add sass
+
 > yarn add date-fns
+
 > yarn add axios
+
 > yarn add rc-slider
+
 > yarn add rc-switch
 
 ## Renomear arquivos em pages 
