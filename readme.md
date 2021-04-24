@@ -23,6 +23,8 @@
 
 # Starting o project
 > $ yarn server 
+
 > $ yarn build 
+
 > $ yarn start 
 
