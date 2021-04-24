@@ -1,0 +1,20 @@
+
+export default function Home(props) {
+  return (
+    <h1>Index</h1>
+  )
+}
+
+// SSG
+export async function getStaticProps() {
+  const res = await fetch("http://localhost:3333/episodes")
+  const data = await res.json()
+
+  const oitoHoras = 60 * 60 * 8;
+  return {
+    props: {
+      episodes: data
+    },
+    revalidate: oitoHoras,
+  }
+}

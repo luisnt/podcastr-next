@@ -1,0 +1,17 @@
+export default function Home(props) {
+  return (
+    <h1>Index</h1>
+  )
+}
+
+// SSR
+export async function getServerSideProps() {
+  const res = await fetch("http://localhost:3333/episodes")
+  const data = await res.json()
+
+  return {
+    props: {
+      episodes: data
+    }
+  }
+}
