@@ -20,3 +20,9 @@
 
 ## Movendo pages para src
 > /pages => /src/pages
+
+# Starting o project
+> $ yarn server 
+> $ yarn build 
+> $ yarn start 
+
